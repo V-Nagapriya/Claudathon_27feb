@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+client/dist/
+server/dist/
+
+# Database (auto-created on first run)
+server/inventory.db
+server/inventory.db-shm
+server/inventory.db-wal
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+node_modules
